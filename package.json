@@ -1,5 +1,5 @@
 {
-  "name": "chat-cord",
+  "name": "chat-room",
   "version": "1.0.0",
   "description": "Realtime Chat app with socket",
   "main": "server.js",

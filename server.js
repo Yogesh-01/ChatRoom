@@ -12,7 +12,7 @@ const io = socketio(server);
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
 
-const botName = "Chat-cord Bot";
+const botName = "Chat-room Bot";
 
 // Run when a client connects
 io.on("connection", socket => {
@@ -22,7 +22,7 @@ io.on("connection", socket => {
 
        socket.join(user.room);
        // Welcome current  user
-       socket.emit("message", formatMessage(botName, "Welocme to chat-cord"));
+       socket.emit("message", formatMessage(botName, "Welocme to chat-room"));
 
        // Broadcast when a user connects
        socket.broadcast
