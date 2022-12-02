@@ -7,8 +7,8 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Yash Vardhan",
-  "license": "MIT",
+  "author": "Yogesh Kumar",
+  "license": "NA",
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.29.4",
